@@ -319,6 +319,9 @@ header.hero p {
   background: var(--secondary);
   color: var(--heaven);
 }
+.btn-secondary a {
+  color: var(--heaven);
+}
 .btn-secondary:hover {
   background: var(--heaven);
   color: var(--secondary);
