@@ -1,3 +1,5 @@
+// ?? for slider 
+
 $(document).ready(function(){
    $('.food-slider').slick({
       autoplay:true,
@@ -26,3 +28,15 @@ $(document).ready(function(){
       $('.site-content-wrapper').toggleClass('scaled');
    })
 });
+
+// !! for cart system 
+function add_to_card(pid,pname,price){
+   let cart=localStorage.getItem("cart");
+   if(cart==null){
+      //?? no cart item
+      let products=[];
+      let product={productId:pid,productName:pname,productQuantity:1,productPrice:price}
+   } else{
+      //?? cart is already present
+   }
+}
