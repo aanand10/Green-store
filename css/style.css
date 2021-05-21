@@ -732,7 +732,7 @@ section.contact-us .contact-info > div > div > div span:first-child {
   height: 80px;
   position: absolute;
   right: 2rem;
-  bottom: 2rem;
+  top: 80%;
   border-radius: 50%;
   /* display: block; */
   display: flex;
