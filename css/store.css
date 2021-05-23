@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "Raleway-regular";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway-medium";
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway-bold";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway-extrabold";
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-semibold";
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-black";
+  src: url(../fonts/Raleway-Black.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway-semibold";
+  color: #777;
+  /* background: #f0f0f0; */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.nav-trigger {
+  background-color: transparent;
+}
+.nav-top {
+  background: white;
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("Images/Header Background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+
+.band-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+  /* height: 600px; */
+  background-image: url(../images/hero.png);
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  /* overflow: hidden; */
+  object-fit: cover;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0.2em 1.5em;
+}
+.section-header {
+  font-family: "Raleway-extrabold";
+  /* font-weight: normal; */
+  color: #eebf00;
+  text-align: center;
+  font-size: 5.5em;
+  margin: 20px 0px;
+}
+
+.about-band-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.main-footer {
+  background-color: #56ccf2;
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  /* padding: 0.67em 0.67em; */
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #2d9cdb;
+  font-size: 4em;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.btn-primary {
+  color: white;
+  /* background-color: #56ccf2; */
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  width: 150px;
+  /* font-size: 16px; */
+  margin-left: 10px;
+
+  font-family: "Raleway-medium";
+  color: black;
+  background: white;
+  border: 2px solid #eebf00;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.btn-primary img {
+  background: #eebf00;
+
+  padding: 0.2rem;
+  height: 20px;
+  /* border-radius: 5px; */
+  margin-right: 10px;
+}
+
+.btn-primary:hover {
+  background: #eebf00;
+  color: white;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.tour-date {
+  color: #555;
+  width: 11%;
+  font-weight: bold;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.shop-item {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  height: 330px;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.shop-item-image {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+  font-size: 18px;
+  border-radius: 0.3em;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid #eebf00;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  width: 100px;
+  font-size: 10px;
+}
+
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+.btn-purchase {
+  width: 200px;
+}
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+  background: #eebf00;
+  color: #2d333f;
+}
+
+footer.copyright div {
+  background-color: #2d333f;
+  color: white;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Meal Cart</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="./css/store.css">
+    <script src="js/store.js" async></script>
+  </head>
+  <body>
+    <div class="main-wrapper">
+        <div class="nav-background">
+            <div class="mobile-logo">
+                <img src="./icons/logo.svg" alt="">
+            </div>
+            <div class="mobile-nav">
+                <div class="cart">
+                    <!-- <div class="flex items-center">
+                        <img src="./icons/cart-dark.svg" alt="">
+                        <a href="#">0 Items - ($0.00)</a>
+                    </div> -->
+                </div>
+                <div class="nav-top">
+                    <ul>
+                        <li>
+                            <a href="index.html#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#products">Products</a>
+                        </li>
+                        <li>
+                            <a href="index.html#about">About us</a>
+                        </li>
+                        <li>
+                            <a href="index.html#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact-us">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="cart.html">Cart</a>
+                        </li>
+                         <li>
+                            <a href="project-info.html">Project Info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact flex items-center">
+                    <img src="./icons/phone.svg" alt="">
+                    <div>
+                        <h5>Call us: (+91) 123 456 789</h5>
+                        <h6>E-mail : support@freshmeal.com</h6>
+                    </div>
+                </div>
+                <div class="time flex items-center">
+                    <img src="./icons/clock.svg" alt="">
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - Sat (8.00am - 5.00pm)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                <!-- <header class="topbar">
+                    <div class="container flex justify-between items-center">
+                        <div class="icons">
+                            <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                            <a href="#"><img src="./icons/twitter.svg" alt=""></a>
+                            <a href="#"><img src="./icons/google.svg" alt=""></a>
+                            <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                            <a href="#"><img src="./icons/search.svg" alt=""></a>
+                        </div>
+                        <div class="auth flex items-center">
+                            <div>
+                                <img src="./icons/user-icon.svg" alt="">
+                                <a href="#">Log in</a>
+                            </div>
+                            <span class="divider">|</span>
+                            <div>
+                                <img src="./icons/edit.svg" alt="">
+                                <a href="#">Register Now</a>
+                            </div>
+                            <span class="divider">|</span>
+                            <div>
+                                <img src="./icons/cart.svg" alt="">
+                                <a href="#">0 Items - ($0.00)</a>
+                            </div>
+                        </div>
+                    </div>
+                </header> -->
+
+                <nav>
+                    <div class="top">
+                        <div class="container flex justify-between">
+                            <div class="contact flex items-center">
+                                <img src="./icons/phone.svg" alt="">
+                                <div>
+                                    <h5>Call US: (+91) 123 456 789</h5>
+                                    <h6>E-mail : support@freshmeal.com</h6>
+                                </div>
+                            </div>
+                            <div class="branding">
+                                <img src="./icons/logo.svg" alt="">
+                            </div>
+                            <div class="time flex items-center">
+                                <img src="./icons/clock.svg" alt="">
+                                <div>
+                                    <h5>Working Hours:</h5>
+                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center">
+                            <a href="index.html#home" >Home</a>
+                            <a href="index.html#products">Products</a>
+                            <a href="index.html#about">About us</a>
+                            <a href="index.html#services">Services</a>
+                            <a href="index.html#contact-us">Contact us</a>
+                            <a href="cart.html" class="active">Cart</a>
+                            <a href="project-info.html">Project Info</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <section class="container content-section">
+                    <h2 class="section-header">Store</h2>
+                    <div class="shop-items">
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 1</span>
+                            <img class="shop-item-image" src="images/plate-1.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹120.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 2</span>
+                            <img class="shop-item-image" src="Images/plate-2.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹140.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 3</span>
+                            <img class="shop-item-image" src="Images/plate-3.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹99.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 4</span>
+                            <img class="shop-item-image" src="Images/plate-3.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹100.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 5</span>
+                            <img class="shop-item-image" src="Images/plate-3.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹150.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Plate 6</span>
+                            <img class="shop-item-image" src="Images/plate-3.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹199.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br>
+                <hr>
+                <br>
+                <!-- <section class="container content-section">
+                    <h2 class="section-header">MERCH</h2>
+                    <div class="shop-items">
+                        <div class="shop-item">
+                            <span class="shop-item-title">T-Shirt</span>
+                            <img class="shop-item-image" src="Images/Shirt.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$19.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Coffee Cup</span>
+                            <img class="shop-item-image" src="Images/Cofee.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$6.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <section class="container content-section">
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">₹0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                </section>
+
+                                            
+                                               
+                 <footer class="copyright">
+                 <div>
+                  Copyright © 2021 .All rights reserved by Veggie Basket.</a>
+                  </div>
+                </footer> 
+                                       
+                        <!-- !! script part  -->
+                        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+                            <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                            <script src="js/app.js"></script>
+                          
+  </body>
+</html>
