@@ -323,11 +323,14 @@ header.hero p {
   background: var(--secondary);
   color: var(--heaven);
 }
+.btn-view-more:hover {
+  color: var(--secondary);
+}
 .btn-secondary a {
   color: var(--heaven);
 }
 .btn-secondary:hover {
-  background: var(--heaven);
+  background: var(--primary);
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
@@ -529,6 +532,14 @@ section.our-services .service-card .icon {
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+}
+section.our-services .service-card .farm-icon {
+  background-color: white;
+  width: 36px;
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 section.our-services .service-card h2 {
   font-family: "Raleway-bold";
