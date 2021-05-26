@@ -429,6 +429,9 @@ section.top-products .food-slider .food-card button {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
+section.top-products .food-slider .food-card button a {
+  color: inherit;
+}
 section.top-products .food-slider .food-card button:hover {
   background: var(--primary);
   color: var(--heaven);
@@ -518,6 +521,8 @@ section.our-services .service-card {
   margin-right: 2rem;
   position: relative;
   border-radius: 4px;
+  /* flex: 1fr 2fr 1fr; */
+  /* width: 300px; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;

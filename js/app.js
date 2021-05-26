@@ -29,6 +29,10 @@ $(document).ready(function(){
    })
 });
 
+// ?? for subscribe alert 
+function OnSubscribeButtonClicked(){
+   alert("Successful!!! Thanking you for subscribing our newsletter.");
+}
 // !! for cart system 
 function add_to_cart(pid,pname,price){
    let cart=localStorage.getItem("cart");
@@ -42,3 +46,19 @@ function add_to_cart(pid,pname,price){
       //?? cart is already present
    }
 }
+
+const http = require("http")
+const port = 3000
+
+const server = http.createServer(function(req, res){
+
+})
+
+server.listen(port, function(error){
+
+   if(error){
+      console.log('something went wrong', error)
+   }else{
+      console.log('Server is listening on port'+ port)
+   }
+})
