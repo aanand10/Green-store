@@ -379,10 +379,11 @@ section.top-products .food-slider .food-card {
   -o-border-radius: 4px;
 }
 section.top-products .food-slider .food-card .product-image img {
-  width: 80%;
+  width: 200px;
   height: 200px;
   object-fit: contain;
   padding-bottom: 1rem;
+  border-radius: 50%;
 }
 hr {
   border: 1px solid var(--light);
