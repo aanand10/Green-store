@@ -379,9 +379,9 @@ section.top-products .food-slider .food-card {
   -o-border-radius: 4px;
 }
 section.top-products .food-slider .food-card .product-image img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+  width: 150px;
+  height: 165px;
+  /* object-fit: contain; */
   padding-bottom: 1rem;
   border-radius: 50%;
 }
