@@ -225,7 +225,11 @@ body {
   /* border-radius: 5px; */
   margin-right: 10px;
 }
-
+.shop-item-button {
+  background: #eebf00;
+  color: white;
+  text-align: center;
+}
 .btn-primary:hover {
   background: #eebf00;
   color: white;
@@ -293,6 +297,7 @@ body {
   height: 200px;
   width: 200px;
   background-color: white;
+  border-radius: 50%;
 }
 
 .shop-item-details {
