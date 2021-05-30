@@ -757,6 +757,7 @@ section.contact-us .contact-info > div > div > div span:first-child {
   flex-direction: column;
 }
 .text-bg {
+  display: none;
   position: absolute;
   background-color: rgb(255, 0, 0);
   width: 25px;
