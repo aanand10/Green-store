@@ -127,10 +127,10 @@ h3 {
 
 @media only screen and (max-width: 600px) {
   .logo-box {
-    width: 330px;
+    width: 293px;
     padding-left: 20px;
   }
   .logo-box > img {
-    width: 300px;
+    width: 273px;
   }
 }
