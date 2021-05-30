@@ -1,31 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
 .info-container {
   min-height: 100vh;
-  background: #a8ff78; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #78ffd6,
-    #a8ff78
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #78ffd6,
-    #a8ff78
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
   padding: 20px 10px;
   text-align: center;
+  color: #ffffff;
+}
+.nav-trigger {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom-right-radius: 70%;
+  z-index: 1;
 }
 .info-container h1 {
-  margin: 35px 0 20px 5px;
+  margin: 47px 0 20px 5px;
   text-align: center;
   font-family: "Raleway-extrabold";
-  color: #232b38;
+  color: #eebf00;
   letter-spacing: 2px;
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
+  z-index: 3;
+}
+
+.logo-box {
+  background-color: #ffffff59;
+  border-radius: 20px;
+  align-items: center;
+  width: 380px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  align-items: center;
+}
+.logo-box > img {
+  width: 350px;
 }
 .info-container h2,
 h3 {
   padding: 10px;
+}
+.info-stud p {
+  margin: 10px 0;
+  color: orange;
+}
+
+.info-stud p hr {
+  width: 300px;
+}
+.info-stud .info-card {
+  background-color: #ffffff67;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.info-stud .info-card ul {
+  list-style: none;
+}
+.info-stud .info-card ul li {
+  /* line-height: 7px; */
+}
+.info-stud .info-card h3 {
+  color: #eebf00;
 }
 .info-container h3 {
   /* margin-top: -5px; */
@@ -36,4 +94,31 @@ h3 {
 .info-container h3 span {
   margin-top: -10px;
   text-align: center;
+}
+.info-container .download-btn {
+  margin: 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+.info-container .download-btn > button {
+  /* margin-top: 20px; */
+
+  padding: 0 20px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: fit-content;
+  height: 40px;
+  font-size: 20px;
+}
+.info-container .download-btn > button:nth-child(1) {
+  margin-right: 10px;
+}
+.info-container .download-btn button a {
+  color: white;
 }
