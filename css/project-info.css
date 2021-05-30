@@ -15,11 +15,25 @@
   text-align: center;
 }
 .info-container h1 {
-  margin: -5px 0 20px 0;
+  margin: 35px 0 20px 5px;
   text-align: center;
   font-family: "Raleway-extrabold";
   color: #232b38;
   letter-spacing: 2px;
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
+}
+.info-container h2,
+h3 {
+  padding: 10px;
+}
+.info-container h3 {
+  /* margin-top: -5px; */
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.info-container h3 span {
+  margin-top: -10px;
+  text-align: center;
 }
