@@ -122,4 +122,5 @@ h3 {
 .info-container .download-btn button a {
   color: white;
   text-emphasis: none;
+  text-decoration: none;
 }
