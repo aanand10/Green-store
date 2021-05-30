@@ -756,19 +756,7 @@ section.contact-us .contact-info > div > div > div span:first-child {
   display: flex;
   flex-direction: column;
 }
-.text-bg {
-  display: none;
-  position: absolute;
-  background-color: rgb(255, 0, 0);
-  width: 25px;
-  height: 25px;
-  z-index: 5;
-  right: -42px;
-  bottom: 10px;
-  /* display: flex; */
-  border-radius: 50%;
-  /* z-index: 3; */
-}
+
 .cart-circle .no-of-item-in-cart {
   font-size: 30px;
   /* font-weight: 900; */
