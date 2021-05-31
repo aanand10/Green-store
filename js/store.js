@@ -26,14 +26,16 @@ function ready() {
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
 
-function purchaseClicked() {
-    alert('Thank you for your purchase')
-    var cartItems = document.getElementsByClassName('cart-items')[0]
-    while (cartItems.hasChildNodes()) {
-        cartItems.removeChild(cartItems.firstChild)
-    }
-    updateCartTotal()
-}
+// function purchaseClicked() {
+//     alert('Thank you for your purchase')
+//     var cartItems = document.getElementsByClassName('cart-items')[0]
+//     while (cartItems.hasChildNodes()) {
+//         cartItems.removeChild(cartItems.firstChild)
+//     }
+//     updateCartTotal()
+// }
+
+
 
 function removeCartItem(event) {
     var buttonClicked = event.target
